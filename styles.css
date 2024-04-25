@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .navbar_container .detalhes{
+    display: flex;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    
+  }
+  .navbar_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .container_geral {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 150px;
+  }
+
+  
+  .navbar {
+    background-color:  #9c0000;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100vw;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-left: 20px;
+  }
+  
+  .nav_complementos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h2 {
+    margin-top: 0;
+  }
+  
+  .card-content p {
+    margin-bottom: 0;
+  }
+  .autorSecao {
+    background-color: #353333;
+    padding: 50px 0;
+  }
+  
+  .autorSobre {
+    display: flex;
+    align-items: center;
+  }
+  
+  .autorImagem {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .autorBio {
+    flex: 1;
+    color: #fff;
+  }
+  
+  .autorBio h2 {
+    margin-top: 0;
+    color: #fff;
+  }
+  
+  .card-botao {
+    display: inline-block;
+    background-color: #9c0000;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-button:hover {
+    background-color: #9c0000;
+  }
+  
