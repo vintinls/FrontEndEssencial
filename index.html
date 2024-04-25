@@ -66,6 +66,59 @@
     </div>
     <!-- Adicionar mais cards aqui! -->
   </div>
+
+  <!-- Formulário -->
+  <div class="formulario-container">
+    <div class="titulo_da_pagina">
+      <h1>Cadastro e votação de gol mais bonito</h1>
+      <p>Preencha os campos do formulário</p>
+    </div>
+    <form>
+      <fieldset>
+        <label>Nome</label>
+        <input type="text" required>
+        
+        <label>Sobrenome</label>
+        <input type="text" required>
+
+        <label>E-mail</label>
+        <input type="email" required>
+      </fieldset>
+
+      <div class="votacao_gol">
+        <label for="bicicleta">Qual gol você achou mais bonito? OBS: só pode ser escolhido um!</label>
+        <br>
+        <input type="radio" value="bicicleta" name="votacao_gol" id="bicicleta" required />
+        <label for="bicicleta">Bicicleta</label>
+        <br>
+        <input type="radio" value="falta" name="votacao_gol" id="falta" required/>
+        <label for="falta">Falta</label>
+        <br>
+        <input type="radio" value="galatasaray"  name="votacao_gol" id="galatasaray" required/>
+        <label for="galatasaray">Galatasaray</label>
+    </div>
+    
+      
+      <div class="time">
+        <label>Qual time você mais gostou de ver o CR7 jogando?</label>
+        <select name="time" id="time" required>
+          <option selected disabled value="">Selecione um time</option>
+          <option value="real madrid">Real Madrid</option>
+          <option value="manchester united">Manchester United</option>
+          <option value="juventus">Juventus</option>
+          <option value="al-nassr">Al-Nassr</option>
+        </select>
+      </div>
+      
+      <div class="area_texto">
+        <label>Conte a sua experiência sendo fã do CR7</label>
+        <textarea name="experiencia" id="experiencia" cols="30" rows="10" required></textarea>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Seção do autor -->
   <section class="autorSecao">
     <div class="container">
       <div class="autorSobre">
